@@ -86,7 +86,7 @@ public class Model {
                 this.lives--;
             }
             if(this.lives == 0) {
-                this.message.setValue("You lost. Game over!");
+                this.message.setValue("You lost. The word was: " + this.wordToGuess);
                 this.gameOver = true;
                 return;
             }
