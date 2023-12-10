@@ -1,0 +1,71 @@
+// Title container style
+.title_container {
+    -fx-background-color: #195278;
+    -fx-background-radius: 10 10 0 0;
+    -fx-padding: 10 0 10 0;
+    -fx-alignment: center;
+}
+
+.title_container Text {
+    -fx-font-size: 2em;
+    -fx-fill: #FFFFFF;
+}
+
+// Buttons container style
+.button_container {
+    -fx-background-color: #195278;
+    -fx-padding: 10 10 10 10;
+    -fx-spacing: 10;
+    -fx-background-radius: 0 0 10 0;
+}
+
+.button_container Button {
+    -fx-background-color: #000000;
+    -fx-pref-width: 230;
+    -fx-pref-height: 40;
+    -fx-background-radius: 10 10 10 10;
+    -fx-font-size: 1.2em;
+    -fx-font-family: "Calibri Light";
+    -fx-text-fill: #FFFFFF;
+}
+
+.button_container Button: hover {
+    -fx-cursor: hand;
+}
+
+.button_container Button: pressed {
+    -fx-background-color: #696969;
+    -fx-cursor: hand;
+}
+
+// Main container style
+.main_container {
+    -fx-background-color: #195278;
+    -fx-padding: 20 10 10 10;
+    -fx-spacing: 20;
+    -fx-background-radius: 0 0 0 10;
+}
+
+.main_container Text {
+    -fx-font-size: 1.2em;
+    -fx-font-family: "Calibri Light";
+    -fx-fill: #FFFFFF;
+}
+
+.main_container Label {
+    -fx-background-color: #000000;
+    -fx-background-radius: 10 10 10 10;
+    -fx-pref-width: 360;
+    -fx-pref-height: 46;
+    -fx-font-size: 1.2em;
+    -fx-font-family: "Calibri Light";
+    -fx-text-fill: #FFFFFF;
+    -fx-alignment: center;
+}
+
+.main_container TextField {
+    -fx-background-radius: 10 10 10 10;
+    -fx-pref-width: 360;
+    -fx-pref-height: 40;
+    -fx-font-size: 1.2em;
+}
