@@ -1,0 +1,6 @@
+This project uses JavaFX to implement a 'Guess the word' type of game.
+Implemented actions:
+1. read words from a file, puts them in a list and chooses a random word from the list
+2. the user can test different letters to check if they match
+3. keep track of number of mistakes made
+4. after guessing the word or using all available lives, the user can restart the game with a new word
