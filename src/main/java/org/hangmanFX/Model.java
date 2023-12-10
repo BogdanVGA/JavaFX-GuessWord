@@ -84,6 +84,7 @@ public class Model {
             this.mistakes++;
             if(this.mistakes == this.wordToGuess.length()) {
                 this.lives--;
+                this.mistakes = 0;
             }
             if(this.lives == 0) {
                 this.message.setValue("You lost. The word was: " + this.wordToGuess);
